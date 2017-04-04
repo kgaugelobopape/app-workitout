@@ -10,6 +10,7 @@ import {ExercisesPage} from "../pages/exercises/exercises";
 import {WorkoutsPage} from "../pages/workouts/workouts";
 import {NutritionsPage} from "../pages/nutritions/nutritions";
 import {GoalsPage} from "../pages/goals/goals";
+import {WgerService} from "../providers/wgerService";
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import {GoalsPage} from "../pages/goals/goals";
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    WgerService
   ]
 })
 export class AppModule {}
