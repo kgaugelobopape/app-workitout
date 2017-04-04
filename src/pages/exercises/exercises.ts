@@ -1,22 +1,35 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import {Component, OnInit} from '@angular/core';
+import {WgerService} from "../../providers/wger-service";
+import {LoadingController} from "ionic-angular";
 
-/*
-  Generated class for the Exercises page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-exercises',
   templateUrl: 'exercises.html'
 })
-export class ExercisesPage {
+export class ExercisesPage implements OnInit {
+  category: any = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(private wgerService: WgerService, private loadingCtrl: LoadingController){}
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ExercisesPage');
+  ngOnInit(){
+    const loading = this.loadingCtrl.create({
+      content: 'Please wait...'
+    });
+
+    loading.present();
+
+    this.wgerService.getExercises()
+      .subscribe((data) => {
+        this.category = data;
+        loading.dismiss();
+      },
+        (error) => {
+          console.log(error);
+          loading.dismiss();
+        });
   }
 
+  onLoadExercises(cat:any){
+    console.log(cat);
+  }
 }
