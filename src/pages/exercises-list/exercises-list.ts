@@ -1,22 +1,43 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {WgerService} from "../../providers/wger-service";
 
-/*
-  Generated class for the ExercisesList page.
+import _ from 'underscore';
+import {ExercisesDetailsPage} from "../exercises-details/exercises-details";
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-exercises-list',
   templateUrl: 'exercises-list.html'
 })
-export class ExercisesListPage {
+export class ExercisesListPage implements OnInit{
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  data: any = [];
+  cat: any;
+  dataCount: number;
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ExercisesListPage');
+  constructor(
+    private navCtrl: NavController,
+    private navParams: NavParams,
+    private _wgerService: WgerService) {
+    this.cat = this.navParams.data;
+  }
+
+  ngOnInit(){
+    this._wgerService.getExercisesList(this.cat.id)
+      .subscribe(
+        (data) => {
+          if(data && data.results){
+            this.data = _.where(data.results, {category: this.cat.id});
+            this.dataCount = this.data.length;
+          }
+        },
+        (error) => {
+          console.log(error);
+        });
+  }
+
+  onLoadExercise(d: any){
+    this.navCtrl.push(ExercisesDetailsPage, d);
   }
 
 }

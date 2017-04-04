@@ -34,6 +34,6 @@ export class ExercisesPage implements OnInit {
   }
 
   onLoadExercises(cat:any){
-    this.navCtrl.push(ExercisesListPage,{cat});
+    this.navCtrl.push(ExercisesListPage,cat);
   }
 }
