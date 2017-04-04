@@ -1,22 +1,32 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { Component, OnInit } from '@angular/core';
+import {DashboardPage} from "../dashboard/dashboard";
+import {ExercisesPage} from "../exercises/exercises";
+import {WorkoutsPage} from "../workouts/workouts";
+import {NutritionsPage} from "../nutritions/nutritions";
+import {GoalsPage} from "../goals/goals";
+import {Tab} from "../../models/Tab";
 
-/*
-  Generated class for the Tabs page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-tabs',
   templateUrl: 'tabs.html'
 })
-export class TabsPage {
+export class TabsPage implements OnInit {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  dashboard:any = DashboardPage;
+  exercises: any = ExercisesPage;
+  workouts: any = WorkoutsPage;
+  nutritions: any = NutritionsPage;
+  goals: any = GoalsPage;
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TabsPage');
+  appPages: Tab[] = [];
+
+  ngOnInit(){
+    this.appPages = [
+      { title: 'Dashboard', component: this.dashboard, icon: 'apps' },
+      { title: 'Exercises', component: this.exercises, icon: 'contacts' },
+      { title: 'Workouts', component: this.workouts, icon: 'star' },
+      { title: 'Nutritions', component: this.nutritions, icon: 'basket' },
+      { title: 'Goals', component: this.goals, icon: 'trophy' }
+    ];
   }
-
 }
