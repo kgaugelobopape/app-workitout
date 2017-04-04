@@ -1,0 +1,62 @@
+{
+  "count": 11,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 9,
+      "short_name": "cs",
+      "full_name": "čeština"
+    },
+    {
+      "id": 1,
+      "short_name": "de",
+      "full_name": "Deutsch"
+    },
+    {
+      "id": 2,
+      "short_name": "en",
+      "full_name": "English"
+    },
+    {
+      "id": 4,
+      "short_name": "es",
+      "full_name": "Español"
+    },
+    {
+      "id": 6,
+      "short_name": "nl",
+      "full_name": "Nederlands"
+    },
+    {
+      "id": 11,
+      "short_name": "no",
+      "full_name": "Norsk"
+    },
+    {
+      "id": 7,
+      "short_name": "pt",
+      "full_name": "Português"
+    },
+    {
+      "id": 10,
+      "short_name": "sv",
+      "full_name": "Svenska"
+    },
+    {
+      "id": 8,
+      "short_name": "el",
+      "full_name": "ελληνικά"
+    },
+    {
+      "id": 3,
+      "short_name": "bg",
+      "full_name": "български език"
+    },
+    {
+      "id": 5,
+      "short_name": "ru",
+      "full_name": "Русский"
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "count": 113,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 116,
+      "comment": "Always keep your elbows close to your head ",
+      "exercise": 386
+    },
+    {
+      "id": 118,
+      "comment": "Keep your upper body straight",
+      "exercise": 74
+    },
+    {
+      "id": 121,
+      "comment": "It's a swing from the hip, not a squat!",
+      "exercise": 249
+    },
+    {
+      "id": 122,
+      "comment": "Beine nicht ausstrecken, Knie sollten immer angewinkelt bleiben",
+      "exercise": 402
+    },
+    {
+      "id": 6,
+      "comment": "Nach innen drehen, die Ellenbogen zeigen zum Knie",
+      "exercise": 33
+    },
+    {
+      "id": 7,
+      "comment": "Brust raus, Kopf nach hinten",
+      "exercise": 10
+    },
+    {
+      "id": 8,
+      "comment": "Mit Schwung nach unten ziehen",
+      "exercise": 10
+    },
+    {
+      "id": 9,
+      "comment": "Unten 1 Sekunde Pause, oben, 3",
+      "exercise": 7
+    },
+    {
+      "id": 10,
+      "comment": "Kopf in Nacken",
+      "exercise": 36
+    },
+    {
+      "id": 11,
+      "comment": "Brust raus",
+      "exercise": 36
+    },
+    {
+      "id": 12,
+      "comment": "Ellenbogen nach hinten",
+      "exercise": 36
+    },
+    {
+      "id": 13,
+      "comment": "Brust raus",
+      "exercise": 59
+    },
+    {
+      "id": 14,
+      "comment": "Keinen Bucken machen!",
+      "exercise": 59
+    },
+    {
+      "id": 15,
+      "comment": "Schnell nach oben ziehen",
+      "exercise": 59
+    },
+    {
+      "id": 16,
+      "comment": "Gerade sitzen",
+      "exercise": 10
+    },
+    {
+      "id": 17,
+      "comment": "Bank leicht schräg",
+      "exercise": 19
+    },
+    {
+      "id": 18,
+      "comment": "Ellenbogen nach vorne",
+      "exercise": 19
+    },
+    {
+      "id": 19,
+      "comment": "Knie nach außen",
+      "exercise": 6
+    },
+    {
+      "id": 20,
+      "comment": "Ellenbogen am Körper, nicht bewegen",
+      "exercise": 46
+    },
+    {
+      "id": 21,
+      "comment": "Beine ausstrecken, Füße zusammen",
+      "exercise": 46
+    },
+    {
+      "id": 22,
+      "comment": "Arme oben nicht ganz ausstrecken",
+      "exercise": 15
+    },
+    {
+      "id": 23,
+      "comment": "Nach unten gehen, bis die Schenkel parallel zum Boden sind",
+      "exercise": 7
+    },
+    {
+      "id": 24,
+      "comment": "Vorderen Fuß ca 50% draußen (schwebend)",
+      "exercise": 72
+    },
+    {
+      "id": 25,
+      "comment": "Brust raus",
+      "exercise": 72
+    },
+    {
+      "id": 26,
+      "comment": "Gerade sitzen",
+      "exercise": 49
+    },
+    {
+      "id": 27,
+      "comment": "Brust raus",
+      "exercise": 49
+    },
+    {
+      "id": 28,
+      "comment": "Flüssige Bewegung, keine Pausen oben oder unten",
+      "exercise": 6
+    },
+    {
+      "id": 29,
+      "comment": "Ellenbogen nach außen",
+      "exercise": 66
+    },
+    {
+      "id": 30,
+      "comment": "Beine nicht ganz ausstrecken",
+      "exercise": 35
+    },
+    {
+      "id": 31,
+      "comment": "Arme angewinkelt",
+      "exercise": 73
+    },
+    {
+      "id": 32,
+      "comment": "Arme nicht zu weit nach unten",
+      "exercise": 73
+    },
+    {
+      "id": 33,
+      "comment": "Arme nicht durchstrecken",
+      "exercise": 68
+    },
+    {
+      "id": 34,
+      "comment": "Ellenbogen nach hinten",
+      "exercise": 68
+    },
+    {
+      "id": 35,
+      "comment": "Ellenbogen nach außen",
+      "exercise": 42
+    },
+    {
+      "id": 36,
+      "comment": "Arme hochziehen bis zum Kinn",
+      "exercise": 62
+    },
+    {
+      "id": 37,
+      "comment": "Eher einen engen Griff machen",
+      "exercise": 62
+    },
+    {
+      "id": 38,
+      "comment": "Wenn oben, drehe die Hände etwas nach unten",
+      "exercise": 20
+    },
+    {
+      "id": 39,
+      "comment": "Brust raus, Kopf nach hinten",
+      "exercise": 48
+    },
+    {
+      "id": 40,
+      "comment": "Rücken gerade",
+      "exercise": 48
+    },
+    {
+      "id": 41,
+      "comment": "Brust raus",
+      "exercise": 70
+    },
+    {
+      "id": 42,
+      "comment": "Fast horizontal vorgebeugt",
+      "exercise": 70
+    },
+    {
+      "id": 43,
+      "comment": "Zum Bauchnabel ziehen, nicht weiter oben",
+      "exercise": 70
+    },
+    {
+      "id": 44,
+      "comment": "Oben 1-2 Sekunden halten",
+      "exercise": 60
+    },
+    {
+      "id": 45,
+      "comment": "Brust raus",
+      "exercise": 37
+    },
+    {
+      "id": 46,
+      "comment": "Zum Bauchnabel ziehen, nicht weiter oben",
+      "exercise": 37
+    },
+    {
+      "id": 47,
+      "comment": "Flüssige Bewegung, keine Pausen oben oder unten",
+      "exercise": 24
+    },
+    {
+      "id": 49,
+      "comment": "Füße zusammen, nicht wie beim Ausfallschritt",
+      "exercise": 28
+    },
+    {
+      "id": 50,
+      "comment": "Arme eher zusammen, direkt unter dem Ellenbogen auf die Bank",
+      "exercise": 28
+    },
+    {
+      "id": 51,
+      "comment": "Flüssige Bewegung, keine Pausen oben oder unten",
+      "exercise": 28
+    },
+    {
+      "id": 52,
+      "comment": "Arme ganz ausstrecken",
+      "exercise": 28
+    },
+    {
+      "id": 54,
+      "comment": "Rücken gerade, keinen Buckel machen!",
+      "exercise": 76
+    },
+    {
+      "id": 55,
+      "comment": "Oben keine Pause, sofort wieder runter.",
+      "exercise": 55
+    },
+    {
+      "id": 56,
+      "comment": "Etwas in die Knie gehen und nach hinten ziehen",
+      "exercise": 76
+    },
+    {
+      "id": 57,
+      "comment": "Schnell nach untern ziehen.",
+      "exercise": 33
+    },
+    {
+      "id": 58,
+      "comment": "Arme oben nicht ganz ausstrecken",
+      "exercise": 29
+    },
+    {
+      "id": 59,
+      "comment": "Flüssige Bewegung, keine Pausen oben oder unten",
+      "exercise": 44
+    },
+    {
+      "id": 60,
+      "comment": "Flüssige Bewegung, keine Pausen machen",
+      "exercise": 54
+    },
+    {
+      "id": 61,
+      "comment": "Arme immer im rechten Winkel zum Körper",
+      "exercise": 47
+    },
+    {
+      "id": 62,
+      "comment": "Arme während der Übung nicht beugen.",
+      "exercise": 8
+    },
+    {
+      "id": 63,
+      "comment": "Arme während der Übung nicht beugen.",
+      "exercise": 137
+    },
+    {
+      "id": 64,
+      "comment": "Bend yourself inwards, the elbows point to the knees",
+      "exercise": 92
+    },
+    {
+      "id": 65,
+      "comment": "Make a fast movement when going down",
+      "exercise": 92
+    },
+    {
+      "id": 66,
+      "comment": "Fluid movements with no pauses at the top or the bottom",
+      "exercise": 80
+    },
+    {
+      "id": 67,
+      "comment": "Fluid movements with no pauses at the top or the bottom",
+      "exercise": 81
+    },
+    {
+      "id": 68,
+      "comment": "Fluid movements with no pauses at the top or the bottom",
+      "exercise": 74
+    },
+    {
+      "id": 69,
+      "comment": "Don't stretch your amrs completly",
+      "exercise": 82
+    },
+    {
+      "id": 70,
+      "comment": "Don't stretch your amrs completly",
+      "exercise": 83
+    },
+    {
+      "id": 71,
+      "comment": "The elbows always point back, don't let them open sidewards",
+      "exercise": 83
+    },
+    {
+      "id": 72,
+      "comment": "Don't move the elbows during the exercise",
+      "exercise": 84
+    },
+    {
+      "id": 73,
+      "comment": "Don't move the elbows during the exercise",
+      "exercise": 85
+    },
+    {
+      "id": 74,
+      "comment": "Keep the elbows right next to the body and don't move them",
+      "exercise": 86
+    },
+    {
+      "id": 75,
+      "comment": "Keep your chest out",
+      "exercise": 109
+    },
+    {
+      "id": 76,
+      "comment": "Don't arch your back!",
+      "exercise": 109
+    },
+    {
+      "id": 77,
+      "comment": "Pull the weight fast",
+      "exercise": 109
+    },
+    {
+      "id": 78,
+      "comment": "Pull the weight towards your belly button, not further up",
+      "exercise": 109
+    },
+    {
+      "id": 79,
+      "comment": "Zum Bauchnabel ziehen, nicht weiter oben",
+      "exercise": 59
+    },
+    {
+      "id": 80,
+      "comment": "Schnell nach oben ziehen",
+      "exercise": 70
+    },
+    {
+      "id": 81,
+      "comment": "Keep your chest out",
+      "exercise": 110
+    },
+    {
+      "id": 82,
+      "comment": "Don't arch your back!",
+      "exercise": 110
+    },
+    {
+      "id": 83,
+      "comment": "Pull the weight fast",
+      "exercise": 110
+    },
+    {
+      "id": 84,
+      "comment": "Pull the weight towards your belly button, not further up",
+      "exercise": 110
+    },
+    {
+      "id": 85,
+      "comment": "Don't arch your back!",
+      "exercise": 105
+    },
+    {
+      "id": 86,
+      "comment": "Make a 1-2 sec. pause at the top",
+      "exercise": 128
+    },
+    {
+      "id": 87,
+      "comment": "Keep your head up",
+      "exercise": 107
+    },
+    {
+      "id": 88,
+      "comment": "Keep your chest out",
+      "exercise": 107
+    },
+    {
+      "id": 89,
+      "comment": "The elbows always point back, don't let them open sidewards",
+      "exercise": 107
+    },
+    {
+      "id": 90,
+      "comment": "Don't arch your back!",
+      "exercise": 106
+    },
+    {
+      "id": 91,
+      "comment": "Go somewhat down in your knees and pull back",
+      "exercise": 106
+    },
+    {
+      "id": 92,
+      "comment": "Keep your chest out",
+      "exercise": 108
+    },
+    {
+      "id": 93,
+      "comment": "Pull the weight towards your belly button, not further up",
+      "exercise": 108
+    },
+    {
+      "id": 95,
+      "comment": "Make no pauses, go immediately down",
+      "exercise": 112
+    },
+    {
+      "id": 96,
+      "comment": "Fluid movements with no pauses at the top or the bottom",
+      "exercise": 115
+    },
+    {
+      "id": 97,
+      "comment": "Fluid movements with no pauses at the top or the bottom",
+      "exercise": 114
+    },
+    {
+      "id": 98,
+      "comment": "The knees point slightly outwards",
+      "exercise": 114
+    },
+    {
+      "id": 99,
+      "comment": "Make a pause at the bottom of 1sec, at the top, 3",
+      "exercise": 111
+    },
+    {
+      "id": 100,
+      "comment": "Go down till your thighs are parallel to the floor",
+      "exercise": 111
+    },
+    {
+      "id": 102,
+      "comment": "Pull the weight till your chin",
+      "exercise": 127
+    },
+    {
+      "id": 103,
+      "comment": "Make a rather narrow grip",
+      "exercise": 127
+    },
+    {
+      "id": 104,
+      "comment": "Keep your head up",
+      "exercise": 140
+    },
+    {
+      "id": 105,
+      "comment": "Keep your chest out",
+      "exercise": 140
+    },
+    {
+      "id": 106,
+      "comment": "Sit straight",
+      "exercise": 141
+    },
+    {
+      "id": 107,
+      "comment": "Keep your chest out",
+      "exercise": 141
+    },
+    {
+      "id": 108,
+      "comment": "Ellenbogen am Körper, nicht bewegen",
+      "exercise": 3
+    },
+    {
+      "id": 109,
+      "comment": "Don't move the elbows during the exercise",
+      "exercise": 129
+    },
+    {
+      "id": 110,
+      "comment": "Don't stretch your arms completly",
+      "exercise": 192
+    },
+    {
+      "id": 111,
+      "comment": "Beine gestreckt und gerade halten, nicht knicken",
+      "exercise": 230
+    },
+    {
+      "id": 112,
+      "comment": "Ellenbogen eng am Körper",
+      "exercise": 231
+    },
+    {
+      "id": 113,
+      "comment": "Nicht mit dem Körper schwingen",
+      "exercise": 231
+    },
+    {
+      "id": 114,
+      "comment": "Ellenbogen eng am Körper, nicht bewegen",
+      "exercise": 232
+    },
+    {
+      "id": 115,
+      "comment": "Nicht zu hohe Gewichte nehmen",
+      "exercise": 232
+    },
+    {
+      "id": 117,
+      "comment": "Move only the forearms",
+      "exercise": 386
+    },
+    {
+      "id": 119,
+      "comment": "Keep your body straight",
+      "exercise": 195
+    },
+    {
+      "id": 120,
+      "comment": "Go as low as you can",
+      "exercise": 195
+    }
+  ]
+}
