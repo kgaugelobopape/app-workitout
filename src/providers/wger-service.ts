@@ -14,4 +14,11 @@ export class WgerService {
       });
   }
 
+  getExercisesList(id: number){
+    return this.http.get('../assets/data/exercise.json')
+      .map((response: Response) => {
+        return response.json()
+      });
+  }
+
 }
