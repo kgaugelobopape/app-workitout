@@ -10,7 +10,8 @@ import {ExercisesPage} from "../pages/exercises/exercises";
 import {WorkoutsPage} from "../pages/workouts/workouts";
 import {NutritionsPage} from "../pages/nutritions/nutritions";
 import {GoalsPage} from "../pages/goals/goals";
-import {WgerService} from "../providers/wgerService";
+import {WgerService} from "../providers/wger-service";
+import {ExercisesListPage} from "../pages/exercises-list/exercises-list";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {WgerService} from "../providers/wgerService";
     ExercisesPage,
     WorkoutsPage,
     NutritionsPage,
-    GoalsPage
+    GoalsPage,
+    ExercisesListPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -33,7 +35,8 @@ import {WgerService} from "../providers/wgerService";
     ExercisesPage,
     WorkoutsPage,
     NutritionsPage,
-    GoalsPage
+    GoalsPage,
+    ExercisesListPage
   ],
   providers: [
     StatusBar,

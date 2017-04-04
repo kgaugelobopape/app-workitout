@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {WgerService} from "../../providers/wger-service";
-import {LoadingController} from "ionic-angular";
+import {LoadingController, NavController} from "ionic-angular";
+import {ExercisesListPage} from "../exercises-list/exercises-list";
 
 @Component({
   selector: 'page-exercises',
@@ -9,7 +10,10 @@ import {LoadingController} from "ionic-angular";
 export class ExercisesPage implements OnInit {
   category: any = [];
 
-  constructor(private wgerService: WgerService, private loadingCtrl: LoadingController){}
+  constructor(
+    private wgerService: WgerService,
+    private loadingCtrl: LoadingController,
+    private navCtrl: NavController){}
 
   ngOnInit(){
     const loading = this.loadingCtrl.create({
@@ -30,6 +34,6 @@ export class ExercisesPage implements OnInit {
   }
 
   onLoadExercises(cat:any){
-    console.log(cat);
+    this.navCtrl.push(ExercisesListPage,{cat});
   }
 }
