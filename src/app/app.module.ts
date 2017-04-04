@@ -13,6 +13,9 @@ import {GoalsPage} from "../pages/goals/goals";
 import {WgerService} from "../providers/wger-service";
 import {ExercisesListPage} from "../pages/exercises-list/exercises-list";
 import {ExercisesDetailsPage} from "../pages/exercises-details/exercises-details";
+import {HttpHelper} from "../providers/http-helper";
+import {LoadingHelper} from "../providers/loading-helper";
+import {AppSettings} from "../providers/app-settings";
 
 @NgModule({
   declarations: [
@@ -44,8 +47,10 @@ import {ExercisesDetailsPage} from "../pages/exercises-details/exercises-details
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
-    WgerService
+    WgerService,
+    HttpHelper,
+    LoadingHelper,
+    AppSettings,
   ]
 })
 export class AppModule {}
