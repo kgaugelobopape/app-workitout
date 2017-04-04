@@ -23,7 +23,7 @@ export class ExercisesListPage implements OnInit{
   }
 
   ngOnInit(){
-    this._wgerService.getExercisesList(this.cat.id)
+    this._wgerService.getExerciseList(this.cat.id)
       .subscribe(
         (data) => {
           if(data && data.results){
