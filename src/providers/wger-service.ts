@@ -11,8 +11,9 @@ export class WgerService {
     public _appSettings: AppSettings,
     public _httpHelper: HttpHelper) { }
 
-  getExerciseCategoryList() {
+  getMuscleGroups() {
     let url = this._appSettings.WGER_URL + '/api/v2/exercisecategory/';
+    // let url = '../assets/data/exercisecategory.json';
 
     return this._httpHelper.get(url, 'Loading...')
       .map(
@@ -24,8 +25,22 @@ export class WgerService {
         });
   }
 
-  getExerciseList(id: number) {
+  getMuscleGroupExercises(id: number) {
     let url = this._appSettings.WGER_URL + '/api/v2/exercise/?category=' + id + '&limit=10000' + '&language=' + 2;
+
+    return this._httpHelper.get(url, 'Loading...')
+      .map(
+        (response) => {
+          return response.json();
+        },
+        (error) => {
+          return error;
+        });
+  }
+
+  getAllExercises(){
+    let url = this._appSettings.WGER_URL + '/api/v2/exercise/?limit=1000';
+    // let url = '../assets/data/exercise.json';
 
     return this._httpHelper.get(url, 'Loading...')
       .map(

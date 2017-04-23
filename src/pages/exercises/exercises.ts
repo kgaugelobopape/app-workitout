@@ -1,32 +1,30 @@
 import {Component, OnInit} from '@angular/core';
-import {WgerService} from "../../providers/wger-service";
 import {NavController} from "ionic-angular";
 import {ExercisesListPage} from "../exercises-list/exercises-list";
+import {AppData} from "../../providers/app-data";
 
 @Component({
   selector: 'page-exercises',
   templateUrl: 'exercises.html'
 })
 export class ExercisesPage implements OnInit {
-  category: any = [];
+  muscleGroups: any = [];
+  exercises: any = [];
 
-  constructor(
-    private _wgerService: WgerService,
-    private navCtrl: NavController){}
+  constructor(private navCtrl: NavController,
+              private _appData: AppData) {
+  }
 
-  ngOnInit(){
+  ngOnInit() {
 
-    this._wgerService.getExerciseCategoryList()
+    this._appData.getMuscleGroups()
       .subscribe(
-        (data) => {
-          this.category = data;
-        },
-        (error) => {
-          console.log(error);
+        (response) => {
+          this.muscleGroups = response;
         });
   }
 
-  onLoadExercises(cat:any){
-    this.navCtrl.push(ExercisesListPage,cat);
+  onLoadExercises(group: any) {
+    this.navCtrl.push(ExercisesListPage, group);
   }
 }

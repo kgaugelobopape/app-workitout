@@ -22,8 +22,8 @@ export class TabsPage implements OnInit {
 
   ngOnInit(){
     this.appPages = [
-      { title: 'Dashboard', component: this.dashboard, icon: 'apps' },
       { title: 'Exercises', component: this.exercises, icon: 'contacts' },
+      { title: 'Dashboard', component: this.dashboard, icon: 'apps' },
       { title: 'Workouts', component: this.workouts, icon: 'star' },
       { title: 'Nutritions', component: this.nutritions, icon: 'basket' },
       { title: 'Goals', component: this.goals, icon: 'trophy' }

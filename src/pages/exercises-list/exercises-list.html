@@ -1,17 +1,12 @@
 <ion-header>
-
   <ion-navbar>
-    <ion-title>{{cat.name}}</ion-title>
+    <ion-title>{{group.name || 'All Exercises'}}</ion-title>
   </ion-navbar>
-
 </ion-header>
 
-
-<ion-content padding-top class="outer-content">
+<ion-content class="outer-content">
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
   <ion-list *ngIf="data">
-    <ion-list-header>
-      {{dataCount}} {{cat.name}} exercises
-    </ion-list-header>
     <button ion-item (click)="onLoadExercise(d)" *ngFor="let d of data">
       {{d.name}}
     </button>

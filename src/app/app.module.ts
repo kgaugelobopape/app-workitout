@@ -16,6 +16,8 @@ import {ExercisesDetailsPage} from "../pages/exercises-details/exercises-details
 import {HttpHelper} from "../providers/http-helper";
 import {LoadingHelper} from "../providers/loading-helper";
 import {AppSettings} from "../providers/app-settings";
+import {AppData} from "../providers/app-data";
+import {MessageHelper} from "../providers/message-helper";
 
 @NgModule({
   declarations: [
@@ -27,7 +29,7 @@ import {AppSettings} from "../providers/app-settings";
     NutritionsPage,
     GoalsPage,
     ExercisesListPage,
-    ExercisesDetailsPage
+    ExercisesDetailsPage,
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -42,7 +44,7 @@ import {AppSettings} from "../providers/app-settings";
     NutritionsPage,
     GoalsPage,
     ExercisesListPage,
-    ExercisesDetailsPage
+    ExercisesDetailsPage,
   ],
   providers: [
     StatusBar,
@@ -51,6 +53,8 @@ import {AppSettings} from "../providers/app-settings";
     HttpHelper,
     LoadingHelper,
     AppSettings,
+    AppData,
+    MessageHelper
   ]
 })
 export class AppModule {}

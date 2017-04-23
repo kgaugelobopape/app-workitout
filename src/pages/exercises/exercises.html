@@ -1,17 +1,16 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Exercises</ion-title>
+    <ion-title>Muscle Group</ion-title>
   </ion-navbar>
 </ion-header>
 
-
-<ion-content padding-top class="outer-content">
-<ion-list *ngIf="category">
-  <ion-list-header>
-    {{category.count}} Body Parts
-  </ion-list-header>
-  <button ion-item (click)="onLoadExercises(cat)" *ngFor="let cat of category.results">
-      {{cat.name}}
+<ion-content class="outer-content">
+<ion-list *ngIf="muscleGroups">
+  <button ion-item (click)="onLoadExercises({})">
+    All Exercises
+  </button>
+  <button ion-item (click)="onLoadExercises(group)" *ngFor="let group of muscleGroups.results">
+      {{group.name}}
   </button>
 </ion-list>
 </ion-content>

@@ -7,6 +7,32 @@
 </ion-header>
 
 
-<ion-content padding>
-<p [innerHTML]="data.description"></p>
+<ion-content class="outer-content">
+  <div padding>
+    <ion-segment [(ngModel)]="exercise">
+      <ion-segment-button value="image">
+        Image
+      </ion-segment-button>
+      <ion-segment-button value="muscle">
+        Muscle
+      </ion-segment-button>
+      <ion-segment-button value="description">
+        Description
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="exercise" padding>
+    <div *ngSwitchCase="'image'">
+      {{data}}
+    </div>
+
+    <div *ngSwitchCase="'muscle'">
+      {{ data.muscles}}
+    </div>
+
+    <div *ngSwitchCase="'description'">
+        <p [innerHTML]="data.description"></p>
+    </div>
+  </div>
 </ion-content>

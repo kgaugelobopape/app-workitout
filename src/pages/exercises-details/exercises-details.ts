@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import { NavParams } from 'ionic-angular';
 import {WgerService} from "../../providers/wger-service";
 import _ from 'underscore';
+import {MessageHelper} from "../../providers/message-helper";
 
 @Component({
   selector: 'page-exercises-details',
@@ -9,27 +10,35 @@ import _ from 'underscore';
 })
 export class ExercisesDetailsPage implements OnInit {
   data: any = [];
-  images: any;
+  imageList: any;
+  exercise: string = 'image';
 
-  constructor(private navParams: NavParams, private _wgerService: WgerService) {}
+  constructor(private navParams: NavParams, private _wgerService: WgerService, private messageHelper: MessageHelper) {}
 
   ngOnInit(){
     this.data = this.navParams.data;
-    this.getExerciseImages(this.data);
+    this.getExerciseImageList(this.data.id);
   }
 
-  getExerciseImages(ex: any){
-    this._wgerService.getExerciseImageList(ex.id)
+  getExerciseImageList(id: number) {
+    this._wgerService.getExerciseImageList(id)
       .subscribe(
-        (data) => {
-          if(data){
-             this.images = _.where(data.results, {exercise: ex.id});
-              console.log(data.results[0]);
-              console.log(ex.id);
-          }
+        (response) => {
+          this.imageList = response.results;
         },
-        (error) => {
-          console.log(error)
+        (err) => {
+          this.messageHelper.create(err, 3000, 'top');
+        });
+  }
+
+  getExerciseEquipmentList(equipments) {
+    this._wgerService.getExerciseEquipmentList(equipments)
+      .subscribe(
+        (response) => {
+          console.log(response);
+        },
+        (err) => {
+          this.messageHelper.create(err, 3000, 'top');
         });
   }
 }

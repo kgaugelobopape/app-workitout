@@ -4,6 +4,7 @@ import {WgerService} from "../../providers/wger-service";
 
 import _ from 'underscore';
 import {ExercisesDetailsPage} from "../exercises-details/exercises-details";
+import {AppData} from "../../providers/app-data";
 
 @Component({
   selector: 'page-exercises-list',
@@ -11,33 +12,38 @@ import {ExercisesDetailsPage} from "../exercises-details/exercises-details";
 })
 export class ExercisesListPage implements OnInit{
 
-  data: any = [];
-  cat: any;
-  dataCount: number;
+  data: any;
+  group: any = {};
 
   constructor(
-    private navCtrl: NavController,
-    private navParams: NavParams,
-    private _wgerService: WgerService) {
-    this.cat = this.navParams.data;
+    private _navCtrl: NavController,
+    private _navParams: NavParams,
+    private _appData: AppData) {
+    this.group = this._navParams.data;
   }
 
   ngOnInit(){
-    this._wgerService.getExerciseList(this.cat.id)
-      .subscribe(
-        (data) => {
-          if(data && data.results){
-            this.data = _.where(data.results, {category: this.cat.id});
-            this.dataCount = this.data.length;
-          }
-        },
-        (error) => {
-          console.log(error);
-        });
+
+      this._appData.getAllExercises()
+        .subscribe(
+          (response) => {
+            if(response.results){
+              if(_.isEmpty(this.group)){
+                this.data = response.results;
+              }else{
+                this.data = _.where(response.results, {category: this.group.id});
+              }
+            }
+          },
+          (error) => {
+            console.log(error);
+          });
   }
 
   onLoadExercise(d: any){
-    this.navCtrl.push(ExercisesDetailsPage, d);
+    this._navCtrl.push(ExercisesDetailsPage, d);
   }
 
+  getItems(){
+  }
 }

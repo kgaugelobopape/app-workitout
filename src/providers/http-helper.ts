@@ -39,7 +39,6 @@ export class HttpHelper {
 
         return error;
       });
-      // .timeout(this.timeOut, new Error('timeout'));
   }
 
   get(url, loadingMessage) {
@@ -66,6 +65,5 @@ export class HttpHelper {
 
         return error;
       });
-      // .timeout(this.timeOut, new Error('timeout'));
   }
 }
