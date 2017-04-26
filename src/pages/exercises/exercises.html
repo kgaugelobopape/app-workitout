@@ -9,7 +9,7 @@
   <button ion-item (click)="onLoadExercises({})">
     All Exercises
   </button>
-  <button ion-item (click)="onLoadExercises(group)" *ngFor="let group of muscleGroups.results">
+  <button ion-item (click)="onLoadExercises(group)" *ngFor="let group of muscleGroups">
       {{group.name}}
   </button>
 </ion-list>

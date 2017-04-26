@@ -19,7 +19,7 @@ export class AppData {
     if (this.data) {
       return Observable.of(this.data);
     } else {
-      return this.http.get('assets/data/exercisecategory.json')
+      return this.http.get('assets/data/app-data.json')
         .map((response: Response) => {
           return response.json();
         });

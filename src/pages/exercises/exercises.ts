@@ -20,7 +20,7 @@ export class ExercisesPage implements OnInit {
     this._appData.getMuscleGroups()
       .subscribe(
         (response) => {
-          this.muscleGroups = response;
+          this.muscleGroups = response.muscleGroup;
         });
   }
 

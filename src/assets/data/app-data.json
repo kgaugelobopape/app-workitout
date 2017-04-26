@@ -1,0 +1,517 @@
+{
+  "muscleGroup": [
+    {
+      "name": "Abs"
+    },
+    {
+      "name": "Arms"
+    },
+    {
+      "name": "Back"
+    },
+    {
+      "name": "Calves"
+    },
+    {
+      "name": "Chest",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "summary":"This is an exercise for the chest.",
+          "description": "<h2>Steps</h2><ol><li>Lie on a flat bench with your feet flat on the floor, keep your back flat on the bench.</li><li>Grasp the bar a little wider than shoulder width apart.</li><li>Raise the barbell above your body and move it over the middle of your chest, this is your starting position.</li><li>Lower the bar down so it just touches your chest.</li><li>Raise the bar till your arms are fully extended and your elbows are locked.</li><li>Return to starting position.</li></ol>",
+          "type": "Compound",
+          "primary": "Chest",
+          "secondary": ["triceps"],
+          "image" :["bench-press-large-1.png"],
+          "equipment": ["barbell", "bench"],
+          "images": ["bench-press-large-1.png", "bench-press-large-2.png"],
+          "tips": []
+        },
+        {
+          "name": "Push Ups",
+          "summary": "<p>This exercise is the main strengthening exercise when wanting to strengthen ones chest, biceps and triceps as well as core muscles.</p>",
+          "description": "<h2>Steps</h2><ol><li>Start with a basic push up, lay face down on the floor, or a mat; with your feet together curled slightly so you rise onto the ball of your feet.</li><li>Place you hands shoulder width apart on the either side of your chest.</li><li>Draw your abs in.</li><li>Inhale as you raise your body up till your arms are straight.</li><li>Keep your head and neck level with your body (don’t look up or down) and don’t allow your back to rise or fall.</li><li>Exhale out as you lower your body back to the ground.</li><li>Repeat.</li></ol>",
+          "type": "Isolation",
+          "primary": "Chest",
+          "secondary": ["Shoulders", "Triceps"],
+          "image" :["push-ups-large-1.png"],
+          "equipment": ["barbell", "bench"],
+          "images": ["push-ups-large-1.png","push-ups-large-2.png"],
+          "tips": []
+        },
+        {
+          "name": "Crossover with Bands",
+          "summary": "<p>This is an exercise for chest, biceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Secure an exercise to a post (or secure pole) and hold it in each hand.</li><li>Step forward so the band has some tension, facing away from the post.</li><li>&nbsp;Your arms at mid chest height and out to the side, palms facing forward this is your starting position.</li><li>Bring your hands together in front of you.</li><li>Hold this for a moment and then in a controlled motion return to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["biceps", "shoulders"],
+          "image" :[],
+          "equipment": ["exercise band"],
+          "images": [],
+          "tips": ["Keep your arms straight with a slight bend in your elbows throughout this exercise."]
+        },
+        {
+          "name": "Bosu Ball Push Up",
+          "summary": "<p>This is an exercise for chest, core, shoulders and triceps strengthening with the use of a Bosu ball.</p>",
+          "description": "<h2>Steps</h2><ol><li>Place the Bosu ball flat side down on the floor.</li><li>Kneel on the floor with your arms fully extended on the ball, and body straight.</li><li>Keeping your abs drawn in and your body straight, by bending your elbows lower your chest to the ball.</li><li>Pause for a moment and then return to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["core", "shoulders, triceps"],
+          "image" :[],
+          "equipment": ["bosu ball"],
+          "images": [],
+          "tips": ["Ensure your elbows remain close to your body while lowering your chest to the ball.","Beginners may want to start on your knees with your feet off the ground so you are rocking into the Push Up."]
+        },
+        {
+          "name": "One Arm Flat Bench Fly’s",
+          "summary": "<p>This is an exercise for chest strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a flat bench with your free hand holding the bench.</li><li>Grasp the dumbbell in your other hand and with your forearm parallel to the floor raise your arm in an arc the middle of your chest.</li><li>Once the dumbbell is at the middle of your chest line, slowly lower is along the same path to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": [],
+          "image" :[],
+          "equipment": ["dumbell", "flat bench"],
+          "images": [],
+          "tips": ["Ensure that your hips and back remain in contact through out the exercise."]
+        },
+        {
+          "name": "Wide Grip Bench Press",
+          "summary": "<p>This is an exercise for chest, triceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie flat on a bench with your feet flat on the floor.</li><li>Place your hands wider than shoulder width apart on the bar and lift it off the rack, this is starting position.</li><li>Bring the bar over your chest and lower it till it is just above your body.</li><li>Extend your arms upward and raise the bar straight up.</li><li>Pause for a moment and with slow controlled movement, return the bar to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["barbell", "flat bench"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Wide Grip Decline Barbell Pullover",
+          "summary": "<p>This is an advanced strengthening exercise which targets the pectoral or chest muscles.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a decline bench with your feet higher than your head and your feet firmly on the ground.</li><li>Grasp the barbell with an extra wide grip (your hands near the plates) and starting at you’re your upper thighs raise the barbell in an arc over your head towards the floor.</li><li>Slowly return the barbell to starting position on your thighs.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["barbell", "decline bench"],
+          "images": [],
+          "tips": ["Ensure your back and hips remain in contact with the bench at all times."]
+        },
+        {
+          "name": "Incline Fly’s with a Twist",
+          "summary": "<p>This is an exercise for chest sculpting and strengthening which is very similar to the incline fly’s.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on an incline bench set at a 45 degree angle with a dumbbell in each hand and your feet flat on the ground.</li><li>Start with the dumbbells out to the sides of your chest, parallel to the floor as you would a regular Fly.</li><li>Raise the dumbbells over your chest in and arc, at the top turn your pinky finger in so they are facing each other.</li><li>Slowly return to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders"],
+          "image" :[],
+          "equipment": ["dumbbells", "incline bench"],
+          "images": [],
+          "tips": ["Ensure your hips and back remain in contact with the bench at all times throughout the exercise."]
+        },
+        {
+          "name": "Butterfly Machine",
+          "summary": "<p>This is an exercise for chest strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Adjust the machine so you are sitting at chest heights with the pads.</li><li>Sit on the machine with your back flat.</li><li>Place your forearms on the pads, parallel to the floor, this is starting position.</li><li>Using your forearms, push the pads together slowly as you squeeze your chest.</li><li>Return your arms to the stretched out starting position in a controlled motion.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": [],
+          "image" :[],
+          "equipment": ["butterfly machine"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Barbell Front Raise and Pullover",
+          "summary": "<p>This is an exercise for chest, triceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a flat bench and grasp a barbell using a medium grip (about 15” apart).</li><li>Place the barbell on your upper thighs and lock your arms straight with a slight bend in your elbows.</li><li>Draw your abs in and keeping your back flat on the bench, raise your arms up in an arc over and behind your head (as if you were performing a reverse pullover).</li><li>Slowly return the barbell to the starting position on your thighs.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["barbell", "flat bench"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "One Arm Barbell Floor Press",
+          "summary": "<p>This is an exercise for chest and triceps strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie flat on your back with your knees bent and your feet firmly on the floor.</li><li>Draw in your abs and contract your lats, and glutes.</li><li>Have your partner hand you the bar and with your bicep parallel to the floor lift and extend your arm fully so it is straight.</li><li>Return to the starting position.</li><li>Complete reps and switch arms.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["triceps"],
+          "image" :[],
+          "equipment": ["barbell"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Decline Dumbbell Fly’s",
+          "summary": "<p>This is an exercise for chest and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a decline bench with your head lower than your body and your feet firmly on the ground.</li><li>With dumbbells together above your shoulders and your arms straight out above you as your starting position.</li><li>Keeping your arms straight and with a slight bend in your elbows lower the dumbbells down towards the floor in an arc, up until just above your shoulders.</li><li>Return to the starting position in a slow controlled manner.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders"],
+          "image" :[],
+          "equipment": ["decline bench", "dumbbells"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Decline Chest Press",
+          "summary": "<p>This is an exercise for the strengthening of the lower chest or pectoral muscles and is preferred by beginners as it provides support and stability.</p>",
+          "description": "<h2>Steps</h2><ol><li>Adjust the seat of the machine so that the handles are near the lower portion of your chest.</li><li>Slowly press the handles forward until your hands are fully extended, do not lock your elbows.</li><li>Pause for a moment and then with a controlled movement lower your hands back to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary":  ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["chest machine"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Decline Dumbbell Bench Press",
+          "summary": "<p>This is an exercise for chest, shoulder and triceps strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Grasp the dumbbells your hands and lie on a decline bench with your head lower than your feet.</li><li>Raise the dumbbells above your chest, bringing your elbows close in, this is your starting position.</li><li>Slowly and with control lower the dumbbells to either side of your lower chest.</li><li>Raise the dumbbells back up to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["decline bench", "dumbbells"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Incline Bench Press with Bands",
+          "summary": "<p>This is an exercise for chest and biceps strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Securely fasten the band under the leg of a flat bench, near your head.</li><li>Lie flat on the bench with your feet flat on the floor in order to stabilise your movements.</li><li>Grasp one end of the band in each hand and starting with your hands at chest level.</li><li>Press upwards so your arms are fully extended.</li><li>With a slow controlled motion return to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["biceps"],
+          "image" :[],
+          "equipment": ["exercise band", "incline bench"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Dumbbell Bent Arm Pullover",
+          "summary": "<p>This is an exercise for chest, shoulder, lats and biceps strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie flat on a bench with your head hanging slightly over the end and your feet flat on the floor.</li><li>Hold a dumbbell with both hands, keep your elbows in throughout the exercise.</li><li>Starting with your arms fully extended over your chest, slowly lower the dumbbell in an arc over your head and towards the floor.</li><li>Pull the dumbbell back up to chest height in a slow controlled manner and return to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["lats", "shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["dumbbell", "flat bench"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "One Arm Bench Press",
+          "summary": "<p>This is an advanced strengthening exercise for the chest and rotator cuff muscles of the shoulder.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie flat on a bench with your feet placed firmly on the floor and your abs drawn in.</li><li>Grasp the dumbbell in one hand and bring it up to the side of your chest, this is starting position.</li><li>Extend your arm, pressing the dumbbell up till your arm is straight and your elbow locked.</li><li>Using slow controlled movements, lower the weight to starting position.</li><li>Switch arms after completing reps with one arm.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["dumbbell", "flat bench"],
+          "images": [],
+          "tips": ["Ensure your hips and back remain in contact with the bench at all times during this exercise.", "Start with a lighter weight in order to perfect the exercise technique and then when progressing onto a heavier weight you should be spotted to ensure safety and injury prevention."]
+        },
+        {
+          "name": "Incline Cable Fly’s",
+          "summary": "<p>This exercise is an alternative to the Butterfly or Pec Deck, it defines the muscles of the chest.Place an incline bench set at a 45 degree angle between two cable towers.</p>",
+          "description": "<h2>Steps</h2><ol><li>Place an incline bench set at a 45 degree angle between two cable towers.</li><li>Grasp a pulley in each hand with your palms facing up.</li><li>With a slight bend in your elbows, squeeze your chest and pull the cables in an arc so they meet together in the middle of your chest.</li><li>Hold for a moment and then slowly lower your hands back to starting position at along the same arc.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["biceps", "forearm", "triceps"],
+          "image" :[],
+          "equipment": ["cable machine", "incline bench"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Hammer Grip Incline Bench Press",
+          "summary": "<p>This is an advanced exercise for strengthening the chest, triceps and shoulders.</p>",
+          "description": "<h2>Steps</h2><ol><li>Grasp a dumbbell in each hand and lay on an incline bench set at a 45 degree angle.</li><li>Keep your feet flat on the floor and your back against the bench at all times.</li><li>Using a hammer grip (with your palms facing each other), lift the weights to shoulder height on either side of your chest.</li><li>Extend your arms fully and press the dumbbells up.</li><li>Slowly return the dumbbells to the starting position at the sides of your chest.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["dumbbells", "incline bench"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Straight Arm Dumbbell Pullover",
+          "summary": "<p>This is an exercise for chest and shoulder strengthening which mainly targets the rotator cuff muscles.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a flat bench with your feet flat on the floor and your head at the end of the bench.</li><li>Grasp a dumbbell and raise it over your chest.</li><li>Keeping your elbows as straight as possible, lower the weight in an arc over your head and as low to the ground as possible with out any pain.</li><li>Return to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["lats", "shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["dumbbell", "flat bench"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Incline Dumbbell Fly’s",
+          "summary": "<p>This is an exercise for chest sculpting and strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on an incline bench set a 45 degree angle with a dumbbell in each hand and your feet firmly on the ground.</li><li>Lift the dumbbells over your chest extending your arms fully and your palms facing each other.</li><li>Keeping a slight bend in your elbows, lower the dumbbells towards the floor in and arc like motion.</li><li>Slowly return to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders"],
+          "image" :[],
+          "equipment": ["dumbbells", "incline bench"],
+          "images": [],
+          "tips": ["Ensure your hips and back remain in contact with the bench throughout the exercise."]
+        },
+        {
+          "name": "Decline Barbell Bench Press",
+          "summary": "<p>This is an exercise for chest, triceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a decline bench with your head lower than your feet.</li><li>Grasp the bar at a grip 3-6 inches wider than your shoulders.</li><li>Raise the bar above your chest, keeping your elbows close in.</li><li>Slowly and with control lower the bar straight to your lower chest.</li><li>Raise the bar back up to starting position with the bar just above your chest.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["barbell", "decline bench"],
+          "images": [],
+          "tips": []
+        },
+        {
+          "name": "Push Ups with feet on exercise ball",
+          "summary": "<p>This is similar to the standard Push Up except using an Exercise Ball forces you to engage the muscle of your core (Rectus Abdominis, Transverse Abdominis, and the Obliques).</p>",
+          "description": "<h2>Steps</h2><ol><li>Place your feet and shins flat on an Exercise Ball.</li><li>Place your arms in front of you at shoulder width apart, place your hands under your arms and press up from the ground until your arms are fully extended.</li><li>Pause at the top for a moment and steady your balance.</li><li>Slowly return to the starting position with your chest lowered towards the ground.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["body", "exercise ball"],
+          "images": []
+        },
+        {
+          "name": "Smith Machine Bench Press",
+          "summary": "<p>With the use of a Smith Machine this exercise strengthens your chest shoulders and triceps.</p>",
+          "description": "<h2>Steps</h2><ol><li>Place a flat bench in the middle of the Smith Machine, with the bar in line with the middle of your chest.</li><li>Lying on the bench, grasp the bar at shoulder width apart.</li><li>Unlatch the bar and slowly lower the bar to your chest.</li><li>Extend your arms fully and raise the bar to the starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["flat bench", "smith machine"],
+          "images": [],
+          "tips": ["Ensure your hips and back remain in contact with the bench throughout this exercise."]
+        },
+        {
+          "name": "Smith Machine Incline Bench Press",
+          "summary": "<p>This is an exercise for chest, shoulder and triceps strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Place an incline bench at a 45 degree angle in the middle of the Smith Machine.</li><li>Align the bench so the bar is across the upper portion of your chest.</li><li>Grasp the bar with a shoulder width grip.</li><li>Unlock the bar and slowly lower the weight to your chest, do not bounce the bar on your chest.</li><li>With slow controlled movements, raise the bar back to the starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["incline bench", "smith machine"],
+          "images": [],
+          "tips": ["when you are doing this exercise for the first time, start on a lower weight in oder to perfect the technique."]
+        },
+        {
+          "name": "Push Ups Close and Wide Hand Versions",
+          "summary": "<p>These are variations on Push Ups, one of the best exercise for muscles of the chest (pectorals), arms (bicep and triceps) and core development. The core muscles are the rectus abdomen and oblique’s which support the spine.</p>",
+          "description": "<h2>Steps</h2><ol><li>For a Close Grip Push Up lay face down on the floor, or a mat, with your feet together curled slightly so you rise on the ball of your feet.</li><li>Place you hands close together so your thumbs and index fingers form a triangle on the floor.</li><li>Draw your abs in and inhale as you raise your body up till your arms are straight.</li><li>Keep your head and neck level with your body (don’t look up or down) and don’t allow your back to rise or fall.</li><li>Exhale out as you lower your body back to the ground.</li><li>For a Wide Grip Push Up move your hands out to a position slightly wider than your shoulders.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["core", "shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["body"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Push Ups with Feet Elevated",
+          "summary": "<p>This is the same general movement as with a Push Up except your feet are elevated allowing greater range of motions and targeting the pectorals differently than the regular Push Up.</p>",
+          "description": "<h2>Steps</h2><ol><li>Place your feet on a bench at least 18” off the ground.</li><li>Make sure the tops of your feet are flush against the bench.</li><li>Place your hands on the floor slightly wider than shoulder width apart.</li><li>With your hands directly under your shoulders, press up from the floor, keeping your back and neck in a straight line so you are looking forward during the entire exercise.</li><li>Once your arms are fully extended pause and then with slow controlled movements lower yourself to the floor again.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["bench", "body"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Incline Chest Press",
+          "summary": "<p>This exercise is for strengthening the upper chest and is preferred among beginners as it provides support and control.</p>",
+          "description": "<h2>Steps</h2><ol><li>Adjust the seat of the machine so that the handles are near the upper portion of your chest.</li><li>Slowly press the handles forward until your hands are fully extended, do not lock your elbows.</li><li>Pause for a moment and then with a controlled movement lower your hands back to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["chest machine"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Dumbbell Incline Bench Press",
+          "summary": "<p>This is an advanced exercise for building and sculpting the chest as well as your triceps and shoulders.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on an incline bench which has been set to an incline of 45 degrees.</li><li>Start with the dumbbells at shoulder height, your arms wide and elbows pointing down to the floor.</li><li>Grasp the dumbbells with a grip so your palms face each other.</li><li>Raise your arms up over your chest bringing the dumbbells closer together as they meet over your chest, as if you were clapping.</li><li>Slowly return the dumbbells to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["dumbbells", "incline bench"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Bent Arm Pullover",
+          "summary": "<p>This is an exercise for chest, triceps, shoulders and lats strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie flat on a bench with your head hanging slightly over the end and your feet flat on the floor.</li><li>Hold a barbell with a close grip (approximately 14”), keep your elbows in throughout the exercise.</li><li>Starting with your arms fully extended over your chest, slowly lower the bar in an arc over your head and towards the floor.</li><li>Pull the bar back up to chest height in a slow controlled manner and return to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["lats", "shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["barbell", "flat bench"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Body Row",
+          "summary": "<p>This is a good overall exercise which strengthens your chest, core and back muscles.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie under a bar so that the bar is at mid chest level and your feet are firmly on the floor.</li><li>Draw your abs in and keep your back flat.</li><li>Using your arms, lift and row your body towards the bar.</li><li>Pause for a moment and with slow controlled movements lower your self back to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["back", "core", "neck"],
+          "image" :[],
+          "equipment": ["bar"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Flat Bench Cable Flys",
+          "summary": "<p>This is an exercise for chest and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on flat bench between two cable towers and your feet firmly on the ground.</li><li>Grasp a pulley in each hand with your palms facing up.</li><li>With a slight bend in your elbows, squeeze your chest and pull the cables together meeting in the middle of your chest.</li><li>Hold for a moment and then slowly lower your hands back to starting position at bench height.</li></ol>",
+          "type": "",
+          "primary": "Chest",
+          "secondary": ["shoulders"],
+          "image" :[],
+          "equipment": ["cable machine", "flat bench"],
+          "images": [],
+          "tips":["Ensure your back and hips stay in contact with the bench at all times during this exercise."]
+        },
+        {
+          "name": "Machine Bench Press",
+          "summary": "<p>This is an exercise for chest, biceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Adjust the machine so that you are sitting with the bars at chest height.</li><li>Place your hands on the bars and place your feet on the foot rest.</li><li>Press out, extending your arms as far as possible in a steady motion.</li><li>Pause for a moment and then return slowly to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["bench press machine"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Chest Dips",
+          "summary": "<p>This is an exercise for chest, triceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Stand in between the parallel bars.</li><li>Grip the handles of the parallel bars and push yourself up to the starting position with straightened arms.</li><li>With your elbows close to your body keep your hips straight, lower your body forward by bending your elbows so your chest is leading as you go down.</li><li>Raise yourself back up to the starting position and repeat.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["body", "parallel bars"],
+          "images": [],
+          "tips":["Ensure not to lock your elbows once you have raised yourself up."]
+        },
+        {
+          "name": "Dumbbell Flys",
+          "summary": "<p>This is an exercise for chest, triceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a flat bench with a dumbbell in each hand and your feet firmly on the ground.</li><li>Lift the dumbbells over your chest extending your arms fully with a slight bend in your elbows, this is your starting position.</li><li>Keeping a slight bend in your elbows, lower the dumbbells to the floor in an arc like motion.</li><li>Slowly return the dumbbells over your chest to the starting position in a controlled motion.</li><li>Repeat.</li></ol>",
+          "type": "",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["dumbbells", "flat bench"],
+          "images": [],
+          "tips":["Ensure your back and hips remain in contact with the bench at all times during this exercise."]
+        },
+        {
+          "name": "Cable Crossover",
+          "summary": "<p>This is an exercise for chest and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Attach the cable pulley to shoulder height.</li><li>Grasp the pulley in both hands and stand approximately one foot in front of the weight stacks, with one foot slightly in front of the other.</li><li>With a slight bend in your elbows bring your hand together in front of your chest on downward angle.</li><li>When your hands meet at the midpoint of your chest, hold for a moment.</li><li>With a slow controlled motion return to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders"],
+          "image" :[],
+          "equipment": ["cable machine"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Wide Grip Decline Bench Press",
+          "summary": "<p>This is an exercise for chest, triceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a decline bench with your head lower than your feet.</li><li>Place your hands wider than shoulder width apart on the bar and lift it off the rack.</li><li>Bring the bar over your chest and lower it till it is just above the lower portion of your chest, this is starting position.</li><li>Extend your arms upward and raise the bar straight up.</li><li>Pause for a moment and then lower the bar to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["barbell", "decline bench"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Incline Bench Press",
+          "summary": "<p>This is an exercise for chest and triceps strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie flat on an incline bench set at a 45 degree angle, with your feet shoulder width apart.</li><li>Grasp the bar a little wider than shoulder width apart.</li><li>Raise the barbell above your body and move it over the middle of your chest, this is your starting position.</li><li>Lower the bar down so it just touches your chest.</li><li>Raise the bar straight up till your arms are fully extended and your elbows are locked.</li><li>Return to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["triceps"],
+          "image" :[],
+          "equipment": ["barbell", "incline bench"],
+          "images": [],
+          "tips":["Do not bounce the bar off your chest always maintain a controlled motion."]
+        },
+        {
+          "name": "Bench Press Dumbbell",
+          "summary": "<p>This is an exercise for chest, triceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Grasp the dumbbells in each hand and lie on a flat bench with your feet firmly on the ground.</li><li>Extend your arms up over your chest with your palms facing forwards.</li><li>Press the dumbbells up over your chest till your arm are fully extended this is your starting position.</li><li>Bend your elbows to a 90 degree angle so your upper arms are parallel with the floor.</li><li>Slowly lower the dumbbells as low as comfortable along your chest.</li><li>With a controlled motion return back to your starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["dumbbells", "flat bench"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "summary": "<p>This exercises is for mainly chest strengthening but also strengthens your triceps and shoulders.</p>",
+          "description": "<h2>Steps</h2><ol><li>Set and incline bench at a 45 degree angle.</li><li>Start with the dumbbells at shoulder height, your arms wide and elbows pointing down to the floor.</li><li>Raise your arms up over your chest bringing the dumbbells closer together as they meet over your chest.</li><li>Slowly return the dumbbells to starting position.</li><li>Repeat.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :[],
+          "equipment": ["dumbbells", "incline bench"],
+          "images": [],
+          "tips":[]
+        },
+        {
+          "name": "Close Grip Barbell Bench Press",
+          "summary": "<p>This is an exercise for chest, triceps and shoulder strengthening.</p>",
+          "description": "<h2>Steps</h2><ol><li>Lie on a flat bench with your feet flat on the floor, keep your back flat on the bench.</li><li>Grasp the bar a close grip (approximately 14” apart).</li><li>Raise the barbell above your body and move it over the middle of your chest, this is your starting position.</li><li>Lower the bar down so it just touches your chest.</li><li>Raise the bar till your arms are fully extended and your elbows are locked.</li><li>Return to starting position.</li></ol>",
+          "type": "isolation",
+          "primary": "Chest",
+          "secondary": ["shoulders", "triceps"],
+          "image" :["close-grip-barbell-bench-press-large-1.png"],
+          "equipment": ["barbell"],
+          "images": ["close-grip-barbell-bench-press-large-1.png", "close-grip-barbell-bench-press-large-2.png"],
+          "tips":[]
+        }]
+    },
+    {
+      "name": "Legs"
+    },
+    {
+      "name": "Shoulders"
+    }
+  ]
+}

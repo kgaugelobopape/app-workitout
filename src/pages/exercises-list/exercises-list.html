@@ -1,14 +1,17 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>{{group.name || 'All Exercises'}}</ion-title>
+  <ion-navbar no-border-bottom>
+    <ion-title>Muscle Group</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content class="outer-content">
+<ion-content>
   <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
-  <ion-list *ngIf="data">
-    <button ion-item (click)="onLoadExercise(d)" *ngFor="let d of data">
-      {{d.name}}
+  <ion-list *ngIf="group?.exercises">
+    <button ion-item (click)="onLoadExercise(d)" *ngFor="let d of group.exercises">
+      <ion-thumbnail item-left>
+        <img src="assets/images/{{onReplaceText(d.name)}}-large-1.png">
+      </ion-thumbnail>
+      <h2>{{d.name}}</h2>
     </button>
   </ion-list>
 </ion-content>

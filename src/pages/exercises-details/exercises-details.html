@@ -1,15 +1,24 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{data.name}}</ion-title>
+    <ion-title>{{exercise.primary}}</ion-title>
+    <ion-buttons>
+      <ion-buttons end>
+        <button ion-button icon-only (click)="presentActionSheet(exercise)">
+          <ion-icon name="more"></ion-icon>
+        </button>
+      </ion-buttons>
+
+    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content class="outer-content">
+<ion-content>
+  <h3 padding text-center>{{ exercise.name }}</h3>
   <div padding>
-    <ion-segment [(ngModel)]="exercise">
+    <ion-segment [(ngModel)]="exerciseModel">
       <ion-segment-button value="image">
         Image
       </ion-segment-button>
@@ -22,17 +31,44 @@
     </ion-segment>
   </div>
 
-  <div [ngSwitch]="exercise" padding>
+  <div [ngSwitch]="exerciseModel" padding>
     <div *ngSwitchCase="'image'">
-      {{data}}
+      <ion-slides (speed)="5">
+        <ion-slide>
+          <img src="assets/images/{{ onReplaceText(exercise.name)}}-large-1.png">
+        </ion-slide>
+        <ion-slide>
+          <img src="assets/images/{{ onReplaceText(exercise.name)}}-large-2.png">
+        </ion-slide>
+      </ion-slides>
     </div>
 
     <div *ngSwitchCase="'muscle'">
-      {{ data.muscles}}
     </div>
 
     <div *ngSwitchCase="'description'">
-        <p [innerHTML]="data.description"></p>
+      <p [innerHTML]="exercise.summary" *ngIf="exercise.summary"></p>
+      <p [innerHTML]="exercise.description" *ngIf="exercise.description"></p>
+      <div *ngIf="exercise.tips?.length > 0">
+        <h2>Tip</h2>
+        <ol>
+          <li *ngFor="let tip of exercise.tips"> {{ tip }}</li>
+        </ol>
+      </div>
+      <ion-grid>
+        <ion-row *ngIf="exercise.type">
+          <ion-col><strong>Type</strong></ion-col>
+          <ion-col>: {{exercise.type}}</ion-col>
+        </ion-row>
+        <ion-row *ngIf="exercise.secondary?.length > 0">
+          <ion-col><strong>Secondary</strong></ion-col>
+          <ion-col>: {{exercise.secondary}}&nbsp;</ion-col>
+        </ion-row>
+        <ion-row *ngIf="exercise.equipment?.length > 0">
+          <ion-col><strong>Equipment</strong></ion-col>
+          <ion-col>: {{exercise.equipment}}&nbsp;</ion-col>
+        </ion-row>
+      </ion-grid>
     </div>
   </div>
 </ion-content>

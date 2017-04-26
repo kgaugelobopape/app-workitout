@@ -1,5 +1,5 @@
-import { NgModule, ErrorHandler } from '@angular/core';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { NgModule } from '@angular/core';
+import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -18,6 +18,7 @@ import {LoadingHelper} from "../providers/loading-helper";
 import {AppSettings} from "../providers/app-settings";
 import {AppData} from "../providers/app-data";
 import {MessageHelper} from "../providers/message-helper";
+import {UserData} from "../providers/user-data";
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import {MessageHelper} from "../providers/message-helper";
     LoadingHelper,
     AppSettings,
     AppData,
-    MessageHelper
+    MessageHelper,
+    UserData,
   ]
 })
 export class AppModule {}
