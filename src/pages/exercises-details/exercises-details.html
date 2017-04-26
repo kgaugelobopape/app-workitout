@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{exercise.primary}}</ion-title>
+    <ion-title>{{exercise.name}}</ion-title>
     <ion-buttons>
       <ion-buttons end>
         <button ion-button icon-only (click)="presentActionSheet(exercise)">
@@ -16,7 +16,6 @@
 
 
 <ion-content>
-  <h3 padding text-center>{{ exercise.name }}</h3>
   <div padding>
     <ion-segment [(ngModel)]="exerciseModel">
       <ion-segment-button value="image">
@@ -33,7 +32,7 @@
 
   <div [ngSwitch]="exerciseModel" padding>
     <div *ngSwitchCase="'image'">
-      <ion-slides (speed)="5">
+      <ion-slides autoplay="1000" loop="true" speed="5">
         <ion-slide>
           <img src="assets/images/{{ onReplaceText(exercise.name)}}-large-1.png">
         </ion-slide>
